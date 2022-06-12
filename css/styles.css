@@ -21,6 +21,10 @@ ul,ol {
     margin: 0;
     padding-left: 0;
 }
+
+img {
+    display: block;
+}
  
 .container{
     width: 1200px;
@@ -328,6 +332,7 @@ flex-basis: calc(100% / 3 - 30px);
 margin-left: 30px;
  
 }
+
 
 .about-text-box {
     position: relative;
@@ -755,7 +760,7 @@ margin-left: 30px;
     transform: translate(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* --------------------MODAL------------------- */
 .backdrop {
     position: fixed;
     top: 0;
